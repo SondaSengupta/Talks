@@ -1,5 +1,5 @@
-## Machine Learning for Gamers: Dungeons Forecasts and Dragons Regressions
-# by Guy Royse from Nexosis
+# Machine Learning for Gamers: Dungeons Forecasts and Dragons Regressions
+## by Guy Royse from Nexosis
 
 # What is Machine Learning?
 - Self-Learning algorithms that done by feeding datasets. "Computer Scientists discovered math and called it machine learning"
@@ -8,18 +8,19 @@
 - Machine learning is around data analysis aspect of Artificial Intelligence. Lots of math around neural networks, math algorithms.
 - Big Foot Sightings DB: http://www.bfro.net/GDB/ 
 
-# How does it work?
+# The Machine Learning Process
+## How does it work?
 - Gather data. Build a model. Make predictions from that model.
 - Target: the thing you want to predict. 
 - Features: Things that affect the thing we want to predict. 
 
-# Gathering Data
+## Gathering Data
 - Encoding: converting non-numeric data to numeric data
 - Imputation: replacing nulls with meaningful defaults
 - One-Hot Encoding is turning text into numbers by defining an array of numbers that match that text
 - Boolean Encoding
 
-# Building a Model
+## Building a Model
 - Pick out your algorithms. There are several.
 - Set some of your data as training data and some data as test data. For example, take 80 percent to train and 20 percent to test with. You can also round-robin it with different buckets of test/train data so you can use all your data to do both. From that, you get a model.
 - Then you run it, and it fails. 
@@ -36,7 +37,7 @@ Basically a prediction method looks like this.
 let features = [f1, f2, f3]
 let predicition = model.predict(features);
 ```
-
+# Types of Analysis
 ## Regression
 - For example, predict how much gold a dragon has based upon its age, color, health, and the value of its treasure
 - So you get a test data with these columns and randomly take test data
@@ -45,6 +46,10 @@ let predicition = model.predict(features);
 ## Classification
 - Classification is about predicting categories versus regression which is predicting a number. If you wanted to ask, depending on the hoard value, health, and age -- what is its color <-- that's a classification question.
 
+## Anomoly Detection
+- Figuring out a positive vs negative score tells you how what oddities are about the data. And now you can reuse that model in order to predict how well the new data rows fit into the bar.
 
+## Forecasting
+- It is simply predicting the future. 
 
 
