@@ -25,8 +25,8 @@
 - Set some of your data as training data and some data as test data. For example, take 80 percent to train and 20 percent to test with. You can also round-robin it with different buckets of test/train data so you can use all your data to do both. From that, you get a model.
 - Then you run it, and it fails. 
 
-## Finding a Good Model and Data Munging Errors
-- target leakage: when you something you thought was a feature, but it is actually the target. For example, say you are targetting power, and you are using voltage and amperage as a feature. Voltage and amperage is power, so your data will be overfitted.
+## Finding a Good Model and Errors
+- **Target leakage:** when you something you thought was a feature, but it is actually the target. For example, say you are targetting power, and you are using voltage and amperage as a feature. Voltage and amperage is power, so your data will be overfitted.
 - Maybe you picked the wrong features or is missing some features you didn't account for.
 - Maybe it's not enough data
 - You are trying to find the trend of the data and understand its pattern as opposed to directly fitting because the model always knows what its looking at and can't deviate correctly when it finds a new thing.
@@ -43,13 +43,19 @@ let predicition = model.predict(features);
 - So you get a test data with these columns and randomly take test data
 - Then you can ask, if I provide age, color, and health, then what is the hoard value the dragon keeps?
 
-## Classification
+## Classification and Clustering
 - Classification is about predicting categories versus regression which is predicting a number. If you wanted to ask, depending on the hoard value, health, and age -- what is its color <-- that's a classification question.
+- Clustering is unsupervised classification. I have a big pile of data and having the algorithm sort it into categories for you.
 
-## Anomoly Detection
+## Anomaly Detection
 - Figuring out a positive vs negative score tells you how what oddities are about the data. And now you can reuse that model in order to predict how well the new data rows fit into the bar.
 
 ## Forecasting
-- It is simply predicting the future. 
+- It is simply predicting the future. Reliability degrades over length over time. 
 
+## Impact Analysis
+- it's forecasting in the past. It's predicting something in the past and comparing the forecast to what actually happened. 
+
+# Resources
+- https://www.nexosis.com/
 
