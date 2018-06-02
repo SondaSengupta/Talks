@@ -1,5 +1,5 @@
 # Machine Learning for Gamers: Dungeons Forecasts and Dragons Regressions
-## by Guy Royse from Nexosis
+## by Guy Royse from Nexosis, Music City Code: June 2018
 
 # What is Machine Learning?
 - Self-Learning algorithms that done by feeding datasets. "Computer Scientists discovered math and called it machine learning"
