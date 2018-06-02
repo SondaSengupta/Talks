@@ -17,5 +17,19 @@
 - You end writing less code with single responsibility methods that are small and readable.
 - Often there isn't time to go back and add tests to a project
 
+## Unit Test "Code of Honor"
+- Test must be indpendent of all other tests
+- Test must not be dependent on other data
+- Don't use fakes. Use Mocks. Fakes are working implementations. Mocks are a specification that record behavior.
+
+## Structure of a Test
+- Arrange: create your dependencies
+- Act: one method that you are testing <-- Highlander Principle: there can only be one
+- Assert: make as many assertions you need to make sure you test it correctly
+
+
+
+
+
 
 
