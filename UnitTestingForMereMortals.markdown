@@ -1,6 +1,5 @@
 # Unit Testing for Mere Mortals
-## by Phil Japikse
-## Music City Code 2018, Nashville Tennessee
+## by Phil Japikse @ Music City Code 2018
 
 "The main thing that distinguishes legacy code from non-legacy code is tests, or rather the lack of tests" -Michael Feathers
 
@@ -26,6 +25,34 @@
 - Arrange: create your dependencies
 - Act: one method that you are testing <-- Highlander Principle: there can only be one
 - Assert: make as many assertions you need to make sure you test it correctly
+
+## Handling Squirrels
+- As I think of something to do, I write it on a piece of paper. When we're working, the hardest thing to do is deal with squirrels-- you are writing something and we multitask and now you have a lot of half-implementations.
+- As ideas come up, write it down
+- Tackle them in order of confidence
+- At the end of day, sometimes you leave a test broken or leave a sentence half-done in order to know where exactly you left off.
+
+## So how do you start
+- Start with BDD where you make a report of the behaviors and give it to your BA on whether these are the accurate requirements of the feature. If that is true, go on to TDD part of test or rewrite the BDD tests until they do.
+- Start with class and the test class you want to work on.
+- Fill out your test, and with the name of the method you are going to use.
+- Go back to class and add the method.
+- Now, do the most naive implemenation to make it pass.
+- Now, add more tests for unhappy/breaking paths and also make those tests pass.
+
+## Keep in mind
+- Doing TDD/BDD at first, you will lose productivity. There was study that showed the Agile/TDD/BDD will be slower to release and go to prod, but the code is much better about maintenance and bugs.
+- He uses XUnit b/c it gets rid of some problems with NUnit
+- Humans should test UI development. UI automation is not worth it.
+- Use EF Core to make a fresh database and you drop and recreate the database. He does not use InMemoryProvider and use LocalDB instead.
+
+
+## Resources
+- https://github.com/skimedic/presentations
+- www.skimedic.com/blog
+- Example of TDD Process: https://www.guru99.com/test-driven-development.html
+
+
 
 
 
