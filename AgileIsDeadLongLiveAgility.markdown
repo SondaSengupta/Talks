@@ -1,5 +1,5 @@
 # Agile is Dead. Long Live Agility
-## by Dave Thomas
+## by Dave Thomas, GoTo Conference Recording, 2015
 
 - Agile is not a methodology. It's more of a philosophy. It's more of a way to do things, as opposed to a marketing noun that is a practice.
 
