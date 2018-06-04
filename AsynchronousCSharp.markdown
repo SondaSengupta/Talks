@@ -26,4 +26,5 @@ https://adeetc.thothapp.com/classes/PC/1213i/LI51D/resources/1303
 - Async in C# 5.0 is a book that talks about using await specifically
 - Concurrency in C# is a good cookbook gives sample code
 - Learn from people like Stephen Cleary and Stephen Taub
+- Jeremy's Blog: http://www.jeremybytes.com/Demos.aspx#TaskAndAwait
 
